@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="register-container">
+      <div class="image-section">
+        <a href="index.html"
+          ><img src="images/cycleslimfinal.svg" alt="Company Logo"
+        /></a>
+      </div>
+      <div class="register-form">
+        <h2>Create your account</h2>
+        <p>Join the community and manage your orders easily.</p>
+        <form id="registerForm">
+          <div class="name-div">
+            <div class="input-group validation-show">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+              />
+              <div id="firstNameError" class="errorColor validation-hide"></div>
+            </div>
+            <div class="input-group validation-show">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Last Name" />
+              <div id="lastNameError" class="errorColor validation-hide"></div>
+            </div>
+          </div>
+          <div class="email-container validation-show">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" />
+            <div id="emailError" class="errorColor validation-hide"></div>
+          </div>
+          <div class="password-container validation-show">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <button type="button" id="eye-btn"><i class="fa-solid fa-eye"></i></button>
+            <div id="passwordError" class="errorColor validation-hide"></div>
+          </div>
+          <div>
+              <div id="registerMessage" class="try"></div>
+              <button class="register-btn" type="submit">Register</button>
+          </div>
+          
+          <p>Already have an account? <a href="login.html">Log In</a></p>
+        </form>
+      </div>
+    </section>
+    <script src="js/register.js"></script>
+  </body>
+</html>

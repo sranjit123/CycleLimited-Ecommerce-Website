@@ -1,0 +1,313 @@
+[
+  {
+    "id": 1,
+    "name": "Road Bike Carbon Frame",
+    "category": "Road",
+    "size": "xs",
+    "brand": "Bianchi",
+    "price": 12000,
+    "image": "./images/1.webp",
+    "description": "Engineered for pure speed and efficiency, this high-modulus ultra-light carbon road bike frame provides the perfect balance of lateral stiffness and vertical compliance. Designed with aerodynamic tube shaping, integrated internal cable routing, and race-tuned geometry, it minimizes drag while maximizing power transfer on steep climbs and fast sprints alike.",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Pike Ultimate Charger 3 Suspension Fork",
+    "category": "Components",
+    "size": "Medium",
+    "brand": "RockShox",
+    "price": 62000,
+    "image": "./images/c4.webp",
+    "description": "Designed for aggressive trail riding with an all-new ButterCup dampening technology that eliminates high-frequency chatter. Features independent high and low-speed compression adjustment for maximum front-end traction.",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "XTR Hydraulic Disc Brake Lever & Caliper Set",
+    "category": "Components",
+    "size": "Medium",
+    "brand": "Shimano",
+    "price": 24000,
+    "image": "./images/c2.webp",
+    "description": "Engineered for elite cross-country and trail racers. Features quick wave action engagement, magnesium master cylinder body, and titanium hardware for the ideal balance of lightweight control and ultimate modulation.",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Aero Endurance Carbon Frame",
+    "category": "Road",
+    "size": "m",
+    "brand": "Evil",
+    "price": 16000,
+    "image": "./images/4.webp",
+    "description": "Designed for long days in the saddle, this endurance road frame smooths out harsh road vibration without compromising responsiveness. Featuring progressive endurance geometry, clearance for up to 32mm tires, and flat-mount disc brake compatibility, it delivers comfort, stability, and speed for epic Gran Fondos.",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Hydraulic Disc Brakes Set",
+    "category": "Components",
+    "size": "l",
+    "brand": "Trek",
+    "price": 35000,
+    "image": "./images/c6.webp",
+    "description": "Experience unyielding stopping power and superior control under all weather conditions. This high-performance dual-piston hydraulic disc brake kit features ergonomic aluminum levers, heat-dissipating metallic brake pads, and pre-bled hydraulic lines to deliver instantaneous response and minimal lever effort on technical descents.",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Precision Hydraulic Disc Brakes",
+    "category": "Components",
+    "size": "l",
+    "brand": "Bianchi",
+    "price": 15000,
+    "image": "./images/c10.webp",
+    "description": "Upgrade your braking performance with precision-engineered hydraulic calipers designed for aggressive road and gravel riding. Constructed with lightweight alloy hardware and mineral oil fluid systems, these brakes ensure consistent, fade-free modulation even under continuous braking.",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Pro Hydraulic Disc Brake Kit",
+    "category": "Components",
+    "size": "xl",
+    "brand": "Yeti",
+    "price": 15000,
+    "image": "./images/c9.webp",
+    "description": "Crafted for maximum trail control and endurance, this complete hydraulic brake assembly features reachable tool-free lever adjustment and ceramic pistons for optimized heat insulation. Perfect for riders seeking dependable, linear stopping force on steep descent sections.",
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "Triathlon Carbon Time-Trial Frame",
+    "category": "Triathlon",
+    "size": "l",
+    "brand": "Trek",
+    "price": 16000,
+    "image": "./images/7.webp",
+    "description": "Slice through the wind with this wind-tunnel-tested carbon time-trial and triathlon frame. Complete with fully hidden cockpit routing, integrated nutrition storage mounts, and an aggressive aero seatpost, this frame is built to shave critical seconds off your split time.",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Mountain Bike X1 Trail Edition",
+    "category": "Mountain",
+    "size": "xl",
+    "brand": "Yeti",
+    "price": 28999,
+    "image": "./images/6.webp",
+    "description": "Conquer rugged singletracks with the Mountain Bike X1. Featuring a durable lightweight aluminum frame, 29-inch tubeless-ready wheels, a 120mm air suspension fork, and a wide-range drivetrain, this trail machine offers incredible traction, stability, and climbing efficiency across technical forest paths.",
+    "color": "Black",
+    "frame": "Aluminium",
+    "wheelSize": "29 inch",
+    "inStock": true
+  },{
+    "id": 10,
+    "name": "Dura-Ace Di2 Rear Derailleur",
+    "category": "Components",
+    "size": "Universal Fit",
+    "brand": "Shimano",
+    "price": 28500,
+    "image": "./images/c7.webp",
+    "description": "Delivering lightning-fast and precise electronic shifting, this flagship rear derailleur features Shadow RD design to minimize damage from trail debris. Integrated wireless connectivity enables seamless customization and real-time battery status via the E-TUBE app.",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "RED AXS Hydraulic Disc Brake Set",
+    "category": "Components",
+    "size": "Small",
+    "brand": "SRAM",
+    "price": 32000,
+    "image": "./images/c6.webp",
+    "description": "Experience unyielding stopping power and superior control under all weather conditions. This high-performance dual-piston hydraulic disc brake kit features ergonomic carbon levers, heat-dissipating pads, and Bleeding Edge technology for easy maintenance.",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Hydraulic Disc Brakes Set",
+    "category": "Components",
+    "size": "s",
+    "brand": "Trek",
+    "price": 15000,
+    "image": "./images/c1.webp",
+    "description": "Experience unyielding stopping power and superior control under all weather conditions. This high-performance dual-piston hydraulic disc brake kit features ergonomic aluminum levers, heat-dissipating metallic brake pads, and pre-bled hydraulic lines to deliver instantaneous response and minimal lever effort on technical descents.",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Gravel Wheelset Pro",
+    "category": "Gravel",
+    "size": "m",
+    "brand": "Yeti",
+    "price": 45000,
+    "image": "./images/3.webp",
+    "description": "Built to tackle unpredictable terrain with confidence, this tubeless-ready gravel wheelset combines a wide inner rim profile with reinforced alloy spokes. Optimally designed to accommodate high-volume off-road tires, it absorbs trail chatter, enhances cornering grip, and maintains high rolling velocity across loose gravel and mud.",
+    "inStock": false
+  },
+  {
+    "id": 12,
+    "name": "Super Record Wireless Crankset",
+    "category": "Components",
+    "size": "Small",
+    "brand": "Shimano",
+    "price": 45000,
+    "image": "./images/c1.webp",
+    "description": "Crafted with Ultra-Torque hollow carbon fiber crank arms, this premium crankset delivers maximum rigidity and optimal power transfer. Optimized tooth profiles ensure quiet, immediate chain engagement under load.",
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "36 Factory Grip 2 Suspension Fork",
+    "category": "Components",
+    "size": "Large",
+    "brand": "Fox",
+    "price": 68000,
+    "image": "./images/c5.webp",
+    "description": "Engineered for uncompromising enduro performance, featuring genuine Kashima coating for ultra-smooth travel and high/low-speed compression and rebound adjustability to conquer technical high-speed trail sections.",
+    "inStock": true
+  },
+  
+  {
+    "id": 16,
+    "name": "GX Eagle Transmission Derailleur",
+    "category": "Components",
+    "size": "Universal Fit",
+    "brand": "SRAM",
+    "price": 21000,
+    "image": "./images/c3.webp",
+    "description": "Mounting directly around the wheel axle with no hanger required, this robust full-mount rear derailleur redefines durability and delivers flawless shifting performance under full pedaling loads.",
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Super Record Ergopower Controls",
+    "category": "Components",
+    "size": "Small",
+    "brand": "Campagnolo",
+    "price": 29500,
+    "image": "./images/c8.webp",
+    "description": "Designed with natural hand ergonomics, these shift-brake levers feature customizable lever reach, textured hoods for maximum grip, and instant shifting execution with a light action feel.",
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "Float X2 Factory Rear Shock",
+    "category": "Components",
+    "size": "Large",
+    "brand": "Fox",
+    "price": 42000,
+    "image": "./images/c8.webp",
+    "description": "A heavy-duty air shock engineered for aggressive downhill and technical trails. Offers advanced damping profiles, VVC high-speed rebound tuning, and a progressive hydraulic bottom-out bumper.",
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Reverb AXS Dropper Seatpost",
+    "category": "Components",
+    "size": "Universal Fit",
+    "brand": "RockShox",
+    "price": 38000,
+    "image": "./images/c10.webp",
+    "description": "Wireless electronic dropper post delivering effortless, touch-of-a-button elevation adjustments. Features ActiveRide technology to provide plush micro-suspension compliance when partially dropped.",
+    "inStock": true
+  },{
+    "id": 20,
+    "name": "S-Works Tarmac SL8",
+    "category": "Road",
+    "size": "M",
+    "brand": "Specialized",
+    "price": 450000,
+    "image": "./images/b2.webp",
+    "description": "Nothing is faster than the Tarmac SL8 thanks to a combination of aerodynamics, lightweight engineering, and ride quality previously thought impossible.",
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Checkmate SLR 7 AXS",
+    "category": "Gravel",
+    "size": "L",
+    "brand": "Trek",
+    "price": 380000,
+    "image": "./images/b3.webp",
+    "description": "An ultra-light, aerodynamic carbon gravel race bike designed to crush long dirt roads and singletrack sections with maximum speed and stability.",
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Scalpel Hi-MOD Ultimate",
+    "category": "Mountain",
+    "size": "S",
+    "brand": "Cannondale",
+    "price": 420000,
+    "image": "./images/b4.webp",
+    "description": "The ultimate XC race bike featuring revolutionary flex-pivot suspension, aggressive geometry, and ultralight frame construction for high-speed technical climbs.",
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Reign Advanced E+ 0",
+    "category": "Electric",
+    "size": "XL",
+    "brand": "Giant",
+    "price": 395000,
+    "image": "./images/b2.webp",
+    "description": "High-performance full-suspension e-enduro bike built to conquer steep ascents and tackle extreme technical descents with smooth power assistance.",
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Oltre RC Dura-Ace Di2",
+    "category": "Road",
+    "size": "XS",
+    "brand": "Bianchi",
+    "price": 480000,
+    "image": "./images/bb1.jpg",
+    "description": "The hyperbike crafted for pure speed, featuring integrated aero cockpit deflectors, ultra-rigid carbon layup, and iconic Celeste detailing.",
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Diverge STR Pro",
+    "category": "Gravel",
+    "size": "M",
+    "brand": "Specialized",
+    "price": 310000,
+    "image": "./images/bb4.jpg",
+    "description": "Equipped with front and rear Future Shock suspension to absorb bumps while maintaining pedaling efficiency on rowdy gravel trails.",
+    "inStock": false
+  },
+  {
+    "id": 26,
+    "name": "Fuel EX 9.9 XX AXS",
+    "category": "Mountain",
+    "size": "L",
+    "brand": "Trek",
+    "price": 360000,
+    "image": "./images/bb.jpg",
+    "description": "A top-tier trail mountain bike with adjustable frame geometry, carbon wheels, and wireless electronic drivetrain performance.",
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Motive Neo Carbon",
+    "category": "Electric",
+    "size": "S",
+    "brand": "Cannondale",
+    "price": 290000,
+    "image": "./images/bb1.jpg",
+    "description": "Sleek and lightweight e-road bike featuring seamless pedal assist, internal cable routing, and all-day endurance comfort.",
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "TCR Advanced SL 0",
+    "category": "Road",
+    "size": "M",
+    "brand": "Giant",
+    "price": 340000,
+    "image": "./images/bb2.jpg",
+    "description": "Legendary stiffness-to-weight ratio designed for decisive attacks, sharp cornering, and record-breaking mountain climbs.",
+    "inStock": true
+  }
+  
+]

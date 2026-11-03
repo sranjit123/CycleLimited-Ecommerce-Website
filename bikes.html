@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikes - Cycle Limited</title>
+    <link rel="stylesheet" href="./css/bikes.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="announcement-container">
+      <div class="announcement-bar">
+        <div class="announcement-text-wrapper">
+          <div class="announcement-text">
+            Special Offer : Free shipping on orders over 15000
+          </div>
+        </div>
+        <div class="announcement-navbar">
+          <a href="index.html">Home</a>
+          <span class="divider">|</span>
+          <a href="index.html#open-aboutus">Features</a>
+          <span class="divider">|</span>
+          <a href="index.html#testimonials">About Us</a>
+          <span class="divider">|</span>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <header class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="../images/cycleslimfinal.svg" alt="Cycle Limited Logo" />
+          </a>
+        </div>
+        <div class="right-div">
+          <div class="desktop-search-wrapper">
+            <div class="input-container">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" placeholder="Search for bikes..." />
+              <div id="desktop-search-dropdown" class="search-dropdown hidden">
+                <div
+                  class="search-dropdown-content"
+                  id="desktop-search-results-list"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <div class="header-icon">
+              <button
+                id="search-toggle"
+                class="icon-btn search-toggle-btn"
+                aria-label="Toggle Search"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+
+              <div class="account-icon">
+                <a href="account.html" aria-label="Account">
+                  <i class="fa-regular fa-user"></i>
+                </a>
+              </div>
+
+              <div class="cart-icon" aria-label="Cart">
+                <i class="ri-shopping-cart-line"></i>
+                <span class="cart-item-count">0</span>
+              </div>
+
+              <button
+                id="menu-toggle"
+                class="menu-toggle-btn"
+                aria-label="Toggle Menu"
+              >
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mobile-search-wrapper hidden" id="mobile-search-bar">
+        <div class="input-container">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search for bikes..." />
+          <div class="search-dropdown hidden">
+            <div class="search-dropdown-content search-results-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-navbar-container" id="mobile-nav-container">
+      <nav class="main-navbar">
+        <div class="left-nav">
+          <a href="products.html">SHOP</a>
+          <a href="bikes.html" class="active">BIKE</a>
+          <a href="components.html">COMPONENTS</a>
+          <a href="index.html">SELL OR TRADE</a>
+        </div>
+      </nav>      
+      <hr style="height: 1px; background-color: black; border: none;">
+
+    </div>
+
+
+
+    <section class="cart">
+      <div class="cart-top">
+        <h2 class="cart-title">Cart</h2>
+        <i class="ri-close-fill" id="cart-close"></i>
+      </div>
+      <hr />
+      <div class="cart-content"></div>
+      <div class="total">
+        <div class="total-title">Total :</div>
+        <div class="total-price">Rs 0</div>
+      </div>
+      <button class="btn-buy">Buy Now</button>
+    </section>
+
+    <div class="main-div">
+      <div class="mobile-filter-bar">
+        <button id="mobile-filter-btn" class="mobile-filter-toggle">
+          <i class="fa-solid fa-sliders"></i> Filter
+        </button>
+      </div>
+
+      <div class="row">
+        <div id="filter-overlay" class="filter-overlay"></div>
+
+        <div class="filter-aside">
+          <aside class="filter-sidebar" id="filter-sidebar">    
+            <div class="main-box">
+ <div>
+              <div class="filter-mobile-header">
+              <span>FILTER</span>
+              <button
+                id="close-filter-btn"
+                class="close-filter-btn"
+                aria-label="Close Filter"
+              >
+                <i class="fa-solid fa-xmark close-btn"></i>
+              </button>
+            </div>
+
+            <div class="filter-toolbar-group">
+              <div><i class="fa-solid fa-sliders"></i> Filter</div>
+            </div>
+
+            <details class="filter-group" open>
+              <summary class="filter-title">
+                <span>Bike Category</span>
+                <i class="fa-solid fa-chevron-up toggle-icon"></i>
+              </summary>
+              <div class="filter-content">
+                <label class="filter-item">
+                  <input type="checkbox" name="category" value="Road" />
+                  <span class="filter-label">Road</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="category" value="Gravel" />
+                  <span class="filter-label">Gravel</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="category" value="Mountain" />
+                  <span class="filter-label">Mountain</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="category" value="Electric" />
+                  <span class="filter-label">Electric</span>
+                </label>
+              </div>
+            </details>
+            <hr class="filter-divider" />
+
+            <details class="filter-group" open>
+              <summary class="filter-title">
+                <span>Frame Size</span>
+                <i class="fa-solid fa-chevron-up toggle-icon"></i>
+              </summary>
+              <div class="filter-content">
+                
+                <label class="filter-item">
+                  <input type="checkbox" name="size" value="s" />
+                  <span class="filter-label">Small</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="size" value="m" />
+                  <span class="filter-label">Medium</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="size" value="l" />
+                  <span class="filter-label">Large</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="size" value="xl" />
+                  <span class="filter-label">Extra Large</span>
+                </label>
+              </div>
+            </details>
+            <hr class="filter-divider" />
+
+            <details class="filter-group" open>
+              <summary class="filter-title">
+                <span>Brands</span>
+                <i class="fa-solid fa-chevron-up toggle-icon"></i>
+              </summary>
+              <div class="filter-content">
+                <label class="filter-item">
+                  <input type="checkbox" name="brand" value="Specialized" />
+                  <span class="filter-label">Specialized</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="brand" value="Cannondale" />
+                  <span class="filter-label">Cannondale</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="brand" value="Giant" />
+                  <span class="filter-label">Giant</span>
+                </label>
+                <label class="filter-item">
+                  <input type="checkbox" name="brand" value="Bianchi" />
+                  <span class="filter-label">Bianchi</span>
+                </label>
+              </div>
+            </details>
+            <hr class="filter-divider" />
+
+            <details class="filter-group" open>
+              <summary class="filter-title">
+                <span>Price Range</span>
+                <i class="fa-solid fa-chevron-up toggle-icon"></i>
+              </summary>
+              <div class="filter-content">
+                <div class="price-inputs">
+                  <input
+                    type="number"
+                    placeholder="Min"
+                    min="0"
+                    aria-label="Minimum price"
+                  />
+                  <span>–</span>
+                  <input
+                    type="number"
+                    placeholder="Max"
+                    min="0"
+                    aria-label="Maximum price"
+                  />
+                </div>
+              </div>
+            </details>
+            </div>
+            <div>            
+              <button id="apply-filters-btn" class="apply-btn">Apply Changes</button>
+            </div>
+            </div>       
+           
+            </aside>
+        </div>
+
+        <div class="product-grid-container">
+        <div class="title-bar">
+          <div class="title-div">Bikes</div>
+          <div class="sort-container">
+            <div class="sort-title">Sort By:</div>
+            <div class="sort-group">
+            <button class="sort-btn" type="button">
+              <span class="selected-value">Featured</span>
+              <span ><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <ul class="sort-dropdown" id="sort-select">
+              <li class="option" data-value="featured">Featured</li>
+              <li class="option" data-value="price-low">Price: Low to High</li>
+              <li class="option" data-value="price-high">Price: High to Low</li>
+              <li class="option" data-value="newest">Newest Arrivals</li>
+            </ul>
+          </div>
+          </div>
+          
+        </div>
+
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+      </div>
+
+    </div>
+
+    <footer class="site-footer">
+      <hr />
+      <div class="footer-container">
+        <div class="footer-col brand-col">
+          <div class="logo">
+            <img src="images/cycleslimfinal.svg" alt="Cycle Limited Logo" />
+          </div>
+          <h4 class="col-title">ABOUT US</h4>
+          <p class="about-text">
+            At Cycle Limited, your satisfaction drives us. We're not just selling bikes; we're curating experiences. Connect with us today and let's pedal towards your next adventure.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="col-title">Shop</h4>
+          <ul class="footer-links">
+            <li><a href="bikes.html">All Bikes</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="frames.html">Frames</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="col-title">Learn More</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sell & Trade</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col newsletter-col">
+          <h4 class="col-title">Newsletter</h4>
+          <p>Sign up for exclusive offers, events, and more.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit" aria-label="Submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Cycle Limited. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+      </div>
+    </footer>
+
+    <script src="js/search-dropdown.js"></script>
+    <script src="./js/bikes.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="js/mobile.js"></script>
+  </body>
+</html>
