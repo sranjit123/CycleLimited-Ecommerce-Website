@@ -17,24 +17,11 @@ Features include user authentication, dynamic product catalog loading, multi-cri
 - Checkout & Order Flow: Form validation for user address/payment on checkout.html, automatic cart clearing upon order submission, and confirmation feedback.
 
 **Tech Stack**
-- Frontend Structure: HTML5 (Semantic elements: <main>, <section>, <header>)
+- Frontend Structure: HTML5 
 - Styling & Layout: CSS3 (Flexbox, CSS Grid, Custom Variables, Responsive Media Queries)
 - Icons & Typography: FontAwesome 6, Google Fonts (Plus Jakarta Sans & Inter)
 - Client-Side Logic: Vanilla JavaScript ES6+ (DOM Manipulation, Event Delegation, Async/Await Fetch API, Array Methods .filter(), .sort(), .map())
 - Data & Persistence: JSON (products.json), Browser localStorage API 
-
-Project Structure
-CycleLimited/
- ├── index.html # Main storefront catalog & filter layout
- ├── product.html # Dynamic single product view page
- ├── checkout.html # Order placement & form validation page
- ├── login.html # Authentication & registration view
- ├── products.json # Mock backend product database
- ├── css/
- │   └── style.css # Global styles, variables, typography & layout grid
- └── js/
-     ├── app.js # Catalog loader, dynamic filter engine, & pagination
-     └── cart.js # Cart state manager, DOM updates & LocalStorage sync
 
 
 **Getting Started**
@@ -53,6 +40,6 @@ Right-click index.html and click Open with Live Server (or serve the folder usin
 Open http://127.0.0.1:5500 in your web browser.
 
 Future Enhancements
-Integration with a Node.js / Express backend server.
-Database persistence using MongoDB / Mongoose.
-Integration of online payment gateways (Stripe / PayPal API).
+- Integration with a Node.js / Express backend server.
+- Database persistence using MongoDB / Mongoose.
+- Integration of online payment gateways (Stripe / PayPal API).
