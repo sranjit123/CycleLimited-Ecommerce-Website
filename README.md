@@ -16,12 +16,13 @@ Features include user authentication, dynamic product catalog loading, multi-cri
 - User-Isolated Local Storage Cart: Item quantities, subtotals, and list states persist per user account key (carts[userIdentifier]).
 - Checkout & Order Flow: Form validation for user address/payment on checkout.html, automatic cart clearing upon order submission, and confirmation feedback.
 
-##Tech Stack
+## Tech Stack
 - Frontend Structure: HTML5 
 - Styling & Layout: CSS3 (Flexbox, CSS Grid, Custom Variables, Responsive Media Queries)
 - Icons & Typography: FontAwesome 6, Google Fonts (Plus Jakarta Sans & Inter)
 - Client-Side Logic: Vanilla JavaScript ES6+ (DOM Manipulation, Event Delegation, Async/Await Fetch API, Array Methods .filter(), .sort(), .map())
 - Data & Persistence: JSON (products.json), Browser localStorage API
+  
 ```text
 CycleLimited/
 ├── index.html              # Main storefront catalog & filter layout
