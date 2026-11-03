@@ -23,18 +23,18 @@ Features include user authentication, dynamic product catalog loading, multi-cri
 - Client-Side Logic: Vanilla JavaScript ES6+ (DOM Manipulation, Event Delegation, Async/Await Fetch API, Array Methods .filter(), .sort(), .map())
 - Data & Persistence: JSON (products.json), Browser localStorage API 
 
-
-Project StructureCycleLimited/
-├── index.html              # Main storefront catalog & filter layout
-├── product.html            # Dynamic single product view page
-├── checkout.html           # Order placement & form validation page
-├── login.html              # Authentication & registration view
-├── products.json           # Mock backend product database
-├── css/
-│   └── style.css           # Global styles, variables, typography & layout grid
-└── js/
-    ├── app.js              # Catalog loader, dynamic filter engine, & pagination
-    └── cart.js             # Cart state manager, DOM updates & LocalStorage sync
+Project Structure
+CycleLimited/
+ ├── index.html # Main storefront catalog & filter layout
+ ├── product.html # Dynamic single product view page
+ ├── checkout.html # Order placement & form validation page
+ ├── login.html # Authentication & registration view
+ ├── products.json # Mock backend product database
+ ├── css/
+ │   └── style.css # Global styles, variables, typography & layout grid
+ └── js/
+     ├── app.js # Catalog loader, dynamic filter engine, & pagination
+     └── cart.js # Cart state manager, DOM updates & LocalStorage sync
 
 
 **Getting Started**
