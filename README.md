@@ -45,7 +45,7 @@ A local web server extension (such as VS Code Live Server) to support fetch() AP
 
 
 ### Installation & Setup
-1. Clone the repository:git clone https://github.com/your-username/cyclelimited-ecommerce.git
+1. Clone the repository: git clone https://github.com/sranjit123/CycleLimited-Ecommerce-Website.git
 2. Navigate into the project directory:cd cyclelimited-ecommerce
 3. Run the Project:
 4. Open the project folder in VS Code.
