@@ -1,6 +1,6 @@
 # CycleLimited — E-Commerce Website
 
-**Live Demo** cyclelimited-ecommerce-website.vercel.app
+
 [**💻 Live Demo Website**](https://cyclelimited-ecommerce-website.vercel.app)
 
 A modern, responsive client-side E-Commerce web application built for browsing, filtering, and purchasing bicycles and cycling gear.
