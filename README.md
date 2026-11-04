@@ -1,7 +1,6 @@
 # CycleLimited — E-Commerce Website
 
-
-[**💻 Live Demo Website**](https://cyclelimited-ecommerce-website.vercel.app)
+<a href="https://cyclelimited-ecommerce-website.vercel.app" target="_blank">**💻 Live Demo Website**</a>
 
 A modern, responsive client-side E-Commerce web application built for browsing, filtering, and purchasing bicycles and cycling gear.
 Features include user authentication, dynamic product catalog loading, multi-criteria filtering, local storage state management, and a interactive cart and checkout pipeline. Built using pure HTML5, CSS3, and modern Vanilla JavaScript (ES6+).
